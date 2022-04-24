@@ -19,7 +19,7 @@ Signatures are how you prevent nodes from changing your transaction in malicious
 Signing is especially important when looking at solution values.
 The puzzle reveal is secured by the puzzle hash on the coin.
 The solution, however, can be anything.
-Most of the time when you are spending a coin, a the output conditions are passed in somehow through the solution.
+Most of the time when you are spending a coin, the output conditions are passed in somehow through the solution.
 If you don't sign those conditions (or the delegated puzzle that generates them) you must assume that an attacker is going to notice and attempt to substitute their own values.
 
 Sometimes, it is necessary to have solution values that logistically cannot be signed, but also should not be changed.
