@@ -352,7 +352,7 @@ This means that `-a / b` is not always equal to `-(a / b)`
 
 ## Bit Operations
 
-`logand`, `logior` and `logxor` operate on any number of arguments
+`logand`, `logior` and `logxor` operate on any number of arguments.
 nil as an argument to these functions is treated as a zero.
 Fail if either A or B is not an atom.
 The shorter atom is sign-extended to equal length as the longer atom.
