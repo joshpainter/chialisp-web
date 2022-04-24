@@ -7,7 +7,7 @@ One of the most important puzzles in the Chia ecosystem is the **singleton**.
 This is a puzzle that assures anyone who looks at can see that it has a unique ID that no other coin has.
 Parties can decide to accept messages or commitments from that unique ID with the assurance that the party who controls the singleton is not double dipping or impersonating someone else.
 
-This puzzle is an [outer puzzle](/docs/common_functions#outer-and-inner-puzzles) and is used to wrap pooling puzzles, NFTs, and decentralized identities.
+This puzzle is an [outer puzzle](https://chialisp.com/docs/common_functions#outer-and-inner-puzzles) and is used to wrap pooling puzzles, NFTs, and decentralized identities.
 Any inner puzzle can be wrapped with this puzzle if it has necessity for uniqueness.
 
 ## Design choices
